@@ -165,7 +165,7 @@ jobs:
   build:
     name: Build
     needs: [check_certs, check_status]
-    runs-on: macos-16
+    runs-on: macos-15
     permissions:
       contents: write
     if:
